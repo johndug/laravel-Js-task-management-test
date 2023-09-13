@@ -38,6 +38,5 @@ Establish a REST API to facilitate the above functionalities. You have the flexi
 Submit your pull request with the completed practical test. Include any necessary instructions on running the application and tests. Be prepared to explain your code and discuss your approach if necessary.
 
 ## Note:
-- Please use Vue for your frontend.
 - Prioritise writing clean, maintainable code.
 - Best of luck! We eagerly anticipate reviewing your work!
