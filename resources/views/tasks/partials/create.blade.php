@@ -1,19 +1,19 @@
 <form id="form" method="post">
      @csrf
     <div>
-        <label>Title:</label>
-        <input type="text" name="title" required>
+        <label class="block font-medium text-sm text-gray-700" for="title">Title:</label>
+        <x-text-input type="text" name="title" required />
     </div>
     <div>
-        <label>Description:</label>
-        <textarea name="description" required></textarea>
+        <label class="block font-medium text-sm text-gray-700" for="description">Description:</label>
+        <x-text-input name="description" required />
     </div>
     <div>
-        <label>Due Date:</label>
-        <input type="date" name="due_date" required>
+        <label class="block font-medium text-sm text-gray-700" for="due_date">Due Date:</label>
+        <x-text-input type="date" name="due_date" required />
     </div>
     <div>
-        <label>Completed:</label>
+        <x-input-label>Completed:</x-input-label>
         <input type="checkbox" name="completed">
     </div>
     <div>

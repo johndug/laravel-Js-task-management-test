@@ -51,7 +51,7 @@ class TaskController extends Controller
 
         $task = Task::create(Arr::except($request->all(), ['_token']));
 
-        return view('tasks.template', compact('tasks'))->with('status', 'list');
+        return redirect()->route('tasks.index')->with('status', 'Task created successfully');
     }
 
     public function storeApi(Request $request)
@@ -108,7 +108,7 @@ class TaskController extends Controller
 
         $task = Task::find($id);
 
-        return view('tasks.template', compact('tasks'))->with('status', 'list');
+        return redirect()->route('tasks.index')->with('status', 'Task updated successfully');
     }
 
     public function updateApi(Request $request, string $id)

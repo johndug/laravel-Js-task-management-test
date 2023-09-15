@@ -1,12 +1,12 @@
-<table>
+<table class="w-full border-collapse table-auto table-striped table-hover">
     <thead>
         <tr>
-            <th>Task</th>
-            <th>Due Date</th>
-            <th>Description</th>
-            <th>Completed</th>
-            <th>Edit</th>
-            <th>Delete</th>
+            <th class="text-left">Task</th>
+            <th class="text-left">Due Date</th>
+            <th class="text-left">Description</th>
+            <th class="text-left">Completed</th>
+            <th class="text-left">Edit</th>
+            <th class="text-left">Delete</th>
         </tr>
     </thead>
     <tbody>
